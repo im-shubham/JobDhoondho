@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "132175768588",
+    "project_id": "job-dhoondho-a8ae8",
+    "storage_bucket": "job-dhoondho-a8ae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132175768588:android:80a76b64a40c952d81d229",
+        "android_client_info": {
+          "package_name": "com.delta_inductions.jobdhoondho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132175768588-88drce4ntvm3fhqntc7gvp5ie87q2g0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.delta_inductions.jobdhoondho",
+            "certificate_hash": "4ad8efc1efe11ef459dc06f785ccb577a9a4aee7"
+          }
+        },
+        {
+          "client_id": "132175768588-m0f8tof5euun5adh62fojajubqnvhlpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoqp0Dz1j7YwP4ZXOE2L-n5R_bwRZOcwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132175768588-m0f8tof5euun5adh62fojajubqnvhlpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
