@@ -1,4 +1,5 @@
 package com.delta_inductions.jobdhoondho.Model;
 
-public class Profile {
+public class User {
+    private Post post;
 }

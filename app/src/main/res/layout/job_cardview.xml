@@ -16,6 +16,10 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.001"
             android:layout_margin="16dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
             <TextView
                 android:id="@+id/postjobdetails"
                 android:layout_width="match_parent"
@@ -25,18 +29,23 @@
                 android:text="Positions:Welder\n\nSalary:10000-15000 per month\n\nLocation:Chennai\n\nWork Period:6 months\n\nJob Description:You have to be highly skilled for this job you will be working in Apollo tyres Oragadam, food and shelter will be provided by the compnay if interested please apply"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
-
-            <ImageButton
-                android:id="@+id/more"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:layout_marginLeft="100dp"
-                android:background="@color/white"
-                android:padding="16dp"
-                android:src="@drawable/ic_baseline_more_vert_24"
-
-                />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="@font/nexabold"
+                    android:text="Apply"
+                    android:id="@+id/btn_apply"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:layout_below="@+id/postjobdetails"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="16sp"
+                    />
+            </RelativeLayout>
         </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

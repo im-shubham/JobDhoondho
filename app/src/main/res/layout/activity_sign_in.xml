@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="40dp"
-    tools:context=".LoginActivity">
+    tools:context=".SigninActivity">
 
     <com.google.android.gms.common.SignInButton
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,24 +35,18 @@
         app:layout_constraintVertical_bias="0.615" />
 
     <ImageView
-        android:layout_width="283dp"
-        android:layout_height="286dp"
-        android:src="@drawable/ic_baseline_search_24"
+        android:layout_width="260dp"
+        android:layout_height="306dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_baseline_work_outline_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.116" />
+        app:layout_constraintVertical_bias="0.08">
 
-    <ImageView
-        android:layout_width="85dp"
-        android:layout_height="79dp"
-        android:src="@drawable/ic_baseline_work_24"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.374"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205" />
+    </ImageView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

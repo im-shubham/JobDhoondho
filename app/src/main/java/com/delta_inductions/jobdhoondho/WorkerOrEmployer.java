@@ -23,7 +23,22 @@ private CardView worker;
 
     @Override
     public void onClick(View v) {
-        if(v.getId()==employer.getId())
-            startActivity(new Intent(this,EmployerActivity.class));
+          switch (v.getId()) {
+              case R.id.employer: {
+                  Intent intent = new Intent(this, NewProfile.class);
+                  intent.putExtra("option", "recruiter");
+                  startActivity(intent);
+                  finish();
+              }
+              break;
+              case R.id.worker :
+              {
+                  Intent intent = new Intent(this, NewProfileWorker.class);
+                  intent.putExtra("option", "seeker");
+                  startActivity(intent);
+                  finish();
+              }
+          }
+
     }
 }
